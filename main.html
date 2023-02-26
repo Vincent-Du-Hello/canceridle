@@ -16,15 +16,26 @@
         </div>
         <div id="splbox" hidden>
             <button id="split">分裂</button>
+            <span id="splhint" hidden>葡萄糖-1 癌细胞*1.5</span>
             <br/>
         </div>
         <!--资源显示-->
         <div class="resourcebox" hidden>
-            <div id="numresbox">
+            <div class="resbox" id="numresbox">
                 <span class="restag">癌细胞</span>
                 <span class="resnum" id="resnumnum">0</span>
-                <br/>
             </div>
+            <div class="resbox" id="gluresbox" hidden>
+                <span class="restag">葡萄糖</span>
+                <span class="resnum" id="resnumglu">0</span>
+            </div>
+        </div>
+        <div id="savebox">
+            <button id="save">保存到文本</button>
+            <button id="load">从文本加载</button>
+            <button id="reset">重置</button>
+            <button id="resetsure">确认？</button>
+            <button id="autosave" disabled>自动保存 0s</button>
         </div>
         <script src="./main.js"></script>
     </body>
