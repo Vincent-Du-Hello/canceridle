@@ -1,4 +1,4 @@
-let version = "b0.0.1";
+let version = "b0.0.2";
 let player = new Object();
 player.variation = 0;
 player.number = 1;
