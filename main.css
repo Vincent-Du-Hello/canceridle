@@ -38,8 +38,21 @@ button{
     text-decoration: none;
     display: inline-block;
 }
+button.selected{
+    filter: brightness(2) !important;
+    cursor: not-allowed;
+}
+button.warn{
+    background-color: #b0b000;
+}
 button[disabled]{
     background-color: #404080;
     color: #c0c0c0;
     cursor: not-allowed;
+}
+.head{
+    font-size: 0.75em;
+}
+.buttons>div{
+    position: relative;
 }
